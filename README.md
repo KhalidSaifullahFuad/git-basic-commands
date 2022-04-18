@@ -4,8 +4,19 @@
 
 <h2 align="center">Git Commands</h2>
 
-### **git config**
-Configures user information used across all local repositories. set a name that is identifiable for credit when review version history
+### git config
+Configures user information used across all local repositories. Set a name that is identifiable for credit when review version history.
 ```
 git config --global user.name "username"
+```
+Set an email address that will be associated with each history marker.
+
+```
+git config --global user.email "email"
+```
+
+### git init
+Initializes an existing directory as Git repository (.git directory)
+```
+git init
 ```
