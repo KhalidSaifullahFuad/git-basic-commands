@@ -31,3 +31,10 @@ Check the current remote
 ```
 git remote -v
 ```
+
+### git pull
+Pull from origin
+```
+git pull origin brach_name
+```
+
