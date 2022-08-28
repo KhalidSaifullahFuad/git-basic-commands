@@ -21,4 +21,13 @@ Initializes an existing directory as Git repository (.git directory)
 git init
 ```
 
-# git
+### git remote
+Set up the remote repository
+```
+git remote add origin https://github.com/UserName/RepositoryName.git
+```
+
+Check the current remote
+```
+git remote -v
+```
