@@ -55,6 +55,13 @@ Force push to origin
 git push origin +branch_name --force
 ```
 
+### git branch
+
+Rename branch name
+
+```
+git branch -m <oldname> <newname>
+```
 
 
 
