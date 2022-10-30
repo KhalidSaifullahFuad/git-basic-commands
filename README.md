@@ -70,6 +70,16 @@ Rename a branch
 git branch -m <oldname> <newname>
 ```
 
+Delete a branch from local :
+
+```
+git branch -d [branch_name]
+```
+
+Force delete from local :
+```
+git branch -D [branch_name]
+```
 
 
 
