@@ -45,6 +45,7 @@ git remote -v
 Pull from origin
 ```
 git pull origin brach_name
+
 ```
 
 ### git push
@@ -57,7 +58,13 @@ git push origin +branch_name --force
 
 ### git branch
 
-Rename branch name
+Create a branch or switch to a branch
+
+```
+git checkout -b [branch_name]
+```
+
+Rename a branch
 
 ```
 git branch -m <oldname> <newname>
