@@ -81,6 +81,14 @@ Force delete from local :
 git branch -D [branch_name]
 ```
 
+### git log
+
+Show all commits of a repository
+```
+git log
+```
+
+
 
 
 
